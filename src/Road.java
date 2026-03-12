@@ -7,18 +7,17 @@ public class Road {
     private String streetName;
 
     public Road(Integer id, Localisation origin, Localisation destination, double distance, String streetName) {
-
+        this.id = id;
         this.origin = origin;
         this.destination = destination;
         this.distance = distance;
         this.streetName = streetName;
-        this.id = id; 
-    }  
+    }
 
     public Integer getId() {
         return this.id;
     }
-    
+
     public Localisation getDestination() {
         return this.destination;
     }
