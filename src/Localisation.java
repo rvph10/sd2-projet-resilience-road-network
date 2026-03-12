@@ -7,32 +7,31 @@ public class Localisation {
     private double altitude;
 
     public Localisation(long id, double latitude, double longitude, String name, double altitude) {
-        // TODO
+        this.id = id;
+        this.latitude = latitude;
+        this.longitude = longitude;
+        this.name = name;
+        this.altitude = altitude;
     }
 
     public long getId() {
-        // TODO
-        return 0;
+        return id;
     }
 
     public double getLatitude() {
-        // TODO
-        return 0;
+        return latitude;
     }
 
     public double getLongitude() {
-        // TODO
-        return 0;
+        return longitude;
     }
 
     public String getName() {
-        // TODO
-        return null;
+        return name;
     }
 
     public double getAltitude() {
-        // TODO
-        return 0;
+        return altitude;
     }
 
 }
