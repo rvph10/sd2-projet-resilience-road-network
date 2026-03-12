@@ -34,6 +34,7 @@ public class Localisation {
         return altitude;
     }
 
+    // Debug helper
     @Override
     public String toString() {
         return "Localisation{" +
