@@ -31,4 +31,8 @@ public class Road {
         return this.streetName;
     }
 
+    public Localisation getOrigin() {
+        return this.origin;
+    }
+
 }
