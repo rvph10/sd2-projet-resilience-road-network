@@ -1,32 +1,34 @@
 public class Road {
 
+    private Integer id;
     private Localisation origin;
     private Localisation destination;
     private double distance;
     private String streetName;
 
-    public Road(Localisation origin, Localisation destination, double distance, String streetName) {
-        // TODO
-    }
+    public Road(Integer id, Localisation origin, Localisation destination, double distance, String streetName) {
 
-    public Localisation getOrigin() {
-        // TODO
-        return null;
-    }
+        this.origin = origin;
+        this.destination = destination;
+        this.distance = distance;
+        this.streetName = streetName;
+        this.id = id; 
+    }  
 
+    public Integer getId() {
+        return this.id;
+    }
+    
     public Localisation getDestination() {
-        // TODO
-        return null;
+        return this.destination;
     }
 
     public double getDistance() {
-        // TODO
-        return 0;
+        return this.distance;
     }
 
     public String getStreetName() {
-        // TODO
-        return null;
+        return this.streetName;
     }
 
 }
