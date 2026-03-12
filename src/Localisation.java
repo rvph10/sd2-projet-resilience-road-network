@@ -34,4 +34,14 @@ public class Localisation {
         return altitude;
     }
 
+    @Override
+    public String toString() {
+        return "Localisation{" +
+                "id=" + id +
+                ", latitude=" + latitude +
+                ", longitude=" + longitude +
+                ", name='" + name + '\'' +
+                ", altitude=" + altitude +
+                '}';
+    }
 }
