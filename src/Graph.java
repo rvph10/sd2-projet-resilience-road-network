@@ -19,6 +19,7 @@ public class Graph {
     }
 
     private void init(String localisationsFile, String roadsFile) {
+        System.out.println("Initialisation des localisations");
         try (BufferedReader br = new BufferedReader(new FileReader(localisationsFile))) {
             String line;
             br.readLine();
@@ -38,6 +39,7 @@ public class Graph {
             e.printStackTrace();
         }
 
+        System.out.println("Initialisation des routes");
         try (BufferedReader br = new BufferedReader(new FileReader(roadsFile))) {
             String line;
             br.readLine();
