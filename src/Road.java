@@ -6,8 +6,7 @@ public class Road {
     private double distance;
     private String streetName;
 
-    public Road(Integer id, Localisation origin, Localisation destination, double distance, String streetName) {
-        this.id = id;
+    public Road(Localisation origin, Localisation destination, double distance, String streetName) {
         this.origin = origin;
         this.destination = destination;
         this.distance = distance;
